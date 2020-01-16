@@ -30,8 +30,22 @@
 
 .header-search {
   margin-left: 82px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header-search:focus {
+  outline: none;
+}
+
+.header-search img {
+  display: block;
 }
 
 .header-logo {
   justify-self: center;
+  font-weight: 600;
+  font-size: 24px;
 }
