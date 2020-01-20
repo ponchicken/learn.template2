@@ -1,0 +1,32 @@
+.sidebar {
+  position: absolute;
+  right: 0;
+  top: 314px;
+  width: 570px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px 0px 0px 16px;
+  color: white;
+}
+
+.sidebar-text {
+  padding: 48px 60px 48px 36px;
+}
+.sidebar-explanation {
+  font-size: 20px;
+  opacity: 0.5;
+}
+.sidebar-title {
+  font-size: 36px;
+  line-height: 1.35;
+  margin-top: 36px;
+  font-weight: bold;
+}
+.sidebar-arrow {
+  position: absolute;
+  bottom: 48px;
+  opacity: 0.5;
+}

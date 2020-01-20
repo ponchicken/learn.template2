@@ -1,0 +1,51 @@
+.header {
+  padding: 35px 0 30px;
+  border-bottom: 1px solid rgba(231, 231, 242, 0.4);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-navlist ul {
+  display: flex;
+  list-style: none;
+  margin: 0 -30px;
+  padding: 0;
+}
+
+.header-navlist li {
+  margin: 0 30px;
+}
+
+.header-auth {
+  display: flex;
+  justify-self: right;
+}
+
+.header-search {
+  margin-left: 82px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header-search:focus {
+  outline: none;
+}
+
+.header-search img {
+  display: block;
+}
+
+.header-logo {
+  justify-self: center;
+  font-weight: 600;
+  font-size: 24px;
+}

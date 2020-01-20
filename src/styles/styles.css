@@ -1,1 +1,5 @@
-@import url('./main.css');
+@import url("./main.css");
+@import url("./header.css");
+@import url("./maintext.css");
+@import url("./panel.css");
+@import url("./sidebar.css");

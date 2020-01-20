@@ -1,5 +1,16 @@
 body {
-  background-color: #111;
-  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  color: black;
+  font-size: 18px;
+  line-height: 1.5;
   margin: 0;
+  padding: 0;
+  background-image: url(/images/gradient.png), url(/images/mainimage.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
 }
